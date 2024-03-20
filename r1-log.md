@@ -3,3 +3,4 @@
 The log of my #100DaysOfCode challenge. Started on [march 18, Monday, 2024].
 
 ## Log
+worked on personla project slot machine.
