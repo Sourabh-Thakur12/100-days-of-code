@@ -26,7 +26,7 @@ stack::stack(int s)
 
 stack::~stack()
 {
-    delete a[];
+    delete []a;
 }
 
 void stack::push(int item){

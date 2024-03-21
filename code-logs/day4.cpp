@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include <iostream>
 
 void update(int *a,int *b) {
-    // Complete this function
+    int temp = *a;
     *a+=*b;
-    if(*a>*b)
-    {*b=*a-*b;}
+    if(temp>*b)
+    {*b=temp-*b;}
     else
-     *b=*b-*a;
+     *b=*b-temp;
 }
 
 int main() {
