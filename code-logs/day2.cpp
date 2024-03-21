@@ -45,7 +45,21 @@ bool stack::isfull(){
     else
     return false;
 }
-
+bool stack::isempty(){
+    if(top == -1)
+    return true;
+    else
+    return false;
+}
+void stack::display(){
+    if(isempty())
+    cout<<"stack is empty";
+    else{
+    for(int i = top; i>=0; i--){
+        cout<<a[i]<<" ";
+    }
+    }
+}
 int main(){
     stack s1(4);
     s1.push(10);
