@@ -60,12 +60,24 @@ void stack::display(){
     }
     }
 }
+void stack::pop(){
+    if(isempty()){
+        cout<<"stack underflow";
+    }
+    else{
+        int *p = &top;
+        top--;
+        delete p;
+    }
+}
 int main(){
     stack s1(4);
     s1.push(10);
     s1.push(40);
     s1.push(30);
     s1.push(20);
+    s1.pop();
+    s1.pop();
     s1.display();
     return 0;
 }
