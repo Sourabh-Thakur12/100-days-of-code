@@ -2,3 +2,5 @@
 day-1: done css battle;
 day-2: crated a stack ds;
 day-4: Solved some easy hackerrank questions;
+day-5:compleated stac functions;
+day-6:made airbnb figma file;
