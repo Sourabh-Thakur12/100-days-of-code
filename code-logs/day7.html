@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="screen" id="screen"></div>
+             <button class="buttons" id="1" onclick="display()">1</button><button class="buttons" id="2" onclick="display()">2</button><button class="buttons">3</button>           <button class="operators">=</button><button class="operators">CE</button>
+             <button class="buttons">4</button><button class="buttons">5</button><button class="buttons">6</button>       <button class="operators">-</button><button class="operators">+</button>
+            <button class="buttons">7</button><button class="buttons">8</button><button class="buttons">9</button>       <button class="operators">/</button><button class="operators">*</button>
+                              <button class="buttons">0</button>                           
+                        </div>
+                        <style>
+                            *{
+                                margin: 1em 0;padding: 0;
+                                background: rgba(255, 179, 38, 0.838);         
+                            }
+                            .wrapper{
+                                background: rgb(1, 1, 164);
+                                aspect-ratio: 1.5/2;
+                                width: 25rem;
+                                margin: auto;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;
+                                flex-wrap: wrap;
+                                padding: 5px;
+                                position: relative;
+                            }
+                            .screen{
+                                background:rgb(205, 150, 150) ;
+                                width: inherit;
+                                height: 10%;
+                                border-radius: 1rem;
+                                margin: 5px;
+                                position: absolute;
+                                top: 0%;
+                                text-align: right;
+                                font-size: x-large;
+                            }
+                            .buttons{
+                                background: orange;  
+                                aspect-ratio: 1/1; 
+                                width:4rem ;
+                                margin: 0.3rem;
+                                margin-top: 4rem;
+                                text-align: center;
+                                font-size:xx-large;
+                                
+                            }
+                            .operators{
+                                background: rgb(159, 105, 4);
+                                aspect-ratio: 1/1; 
+                                width:4.5rem ;
+                                margin: 0.3rem;
+                                margin-top: 4rem;
+                                text-align: center;
+                                font-size:xx-large;
+                                
+                                
+                            }
+                        </style>
+                        <script >
+                            const b1=document.getElementById("1").innerHTML;
+                            const b2=document.getElementById("2").innerHTML;
+                            var screen = document.getElementById("screen")
+                            function display(){
+                                screen.innerHTML +=b1;
+                                console.log(b1)
+                                console.log(b2)
+                            };
+                    </script>
+                        
+</body>
+</html>
