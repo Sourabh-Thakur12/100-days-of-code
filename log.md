@@ -4,4 +4,5 @@ day-2: crated a stack ds;
 day-4: Solved some easy hackerrank questions;
 day-5:compleated stac functions;
 day-6:made airbnb figma file;
-Day-7:added a menu driven feature in stack;
+Day-7:started a calculator project;
+Day-8:added a menu driven feature in stack;
