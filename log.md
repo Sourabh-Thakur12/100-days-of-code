@@ -6,3 +6,4 @@ day-5:compleated stac functions;
 day-6:made airbnb figma file;
 Day-7:started a calculator project;
 Day-8:added a menu driven feature in stack;
+Day-9:fixed and reviewed some previous codes
