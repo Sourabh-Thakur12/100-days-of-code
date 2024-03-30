@@ -10,3 +10,7 @@ Day-8: reviewed old code;
 Day-9: added a menu driven feature in stack;
 Day-10: Stared basics of react through a airbnb project and  made basic airbnb figma layout;
 ```
+##Day 11 -20;
+```
+Day-11: Insertion Sort, Count Sort
+```

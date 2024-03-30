@@ -105,6 +105,7 @@ int main(){
         break;
     case 3:
         s1.pop();
+        cout<<"\nDeleted the last element in stack";
         break;
     case 4:
         s1.display();
